@@ -59,13 +59,13 @@ public class App {
         int[] tb_fält = new int[4];
 
         Scanner tb = new Scanner(System.in);
-        System.out.print("Skriv in tal1: ");
+        System.out.print("Skriv in Element 0: ");
         int tal0 = tb.nextInt();
-        System.out.print("Skriv in tal2: ");
+        System.out.print("Skriv in Element 1: ");
         int tal1 = tb.nextInt();
-        System.out.print("Skriv in tal3: ");
+        System.out.print("Skriv in Element 2: ");
         int tal2 = tb.nextInt();
-        System.out.print("Skriv in tal4: ");
+        System.out.print("Skriv in Element 3: ");
         int tal3 = tb.nextInt();
 
         tb_fält[0]= tal0;
@@ -73,7 +73,7 @@ public class App {
         tb_fält[2]= tal2;
         tb_fält[3]= tal3;
 
-        System.out.println("Summan av dina tal är: "+(tb_fält[0]+tb_fält[1]+tb_fält[2]+tb_fält[3]));
+        System.out.println("Summan av elementen är: "+(tb_fält[0]+tb_fält[1]+tb_fält[2]+tb_fält[3]));
 
         
 
